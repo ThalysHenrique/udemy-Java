@@ -1,0 +1,30 @@
+=== HERANÇA ===
+
+Herança --> extends
+Upcasting / Downcasting
+Sobreposição
+Palavra Super
+
+- posso chamar o "SUPER" nesse construtor padrão, pois se tiver alguma lógica no construtor padrão de "account" posso repetir essa lógica também em "businessAccount"
+- chamo o SUPER para me resguardar, caso seja adicionado alguma coisa no construtor "account"
+
+Anotação @Override
+Classes e métodos final
+
+- final --> segurança dependendo da regra de negócio --> porta de entrada para incosistências/confusões
+- final --> performance --> analisados de forma mais rápida
+- final em class --> evita que a classe seja herdada
+- final em métodos --> evita que o método seja sobreposto
+
+
+
+
+=== POLIMORFISMO ===
+
+- Chamar mesma operação, mas comportamentos diferentes
+
+=== PILARES DA OOP ===
+
+- Encapsulamento
+- Herança
+- Polimorfismo
